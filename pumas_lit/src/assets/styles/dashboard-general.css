@@ -1,0 +1,17 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+body :not(header) {
+  padding: 0 10px;
+}
+  
